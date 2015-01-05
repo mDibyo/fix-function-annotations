@@ -63,6 +63,7 @@ class Test(object):
     @greeting.deleter
     def greeting(self):
         del self._greeting
+    
     def to_json(self) -> str:
         """
         Encode to JSON string.
