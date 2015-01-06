@@ -1,0 +1,7 @@
+# Byte code
+*.pyc
+
+
+# IDE files
+*.iml
+.idea
